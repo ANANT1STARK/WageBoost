@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign-up WageBoost</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="/static/css/sign_up.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Poltawski+Nowy&family=Raleway:wght@600&family=Rubik+Pixels&family=Sigmar&display=swap" rel="stylesheet">
+
+<style>
+  @media screen and (min-width : 767px){
+
+    body{
+        background-image: url('/static/images/sign_in.jpg');
+    }
+  }
+</style>
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="heading">
+                <h1><a href="#">WageBoost</a> </h1>
+                <h4> Watch Videos and Earn !</h4>
+            </div>
+            <div class="form">
+                <form method="post" action="/sign-in">
+                   
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input name="Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input name="password" type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <p>Don't have account ? <a href="/sign-up">Create account</a></p>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </div>
+                    <div class="popup">
+                <div class="popup-content">
+
+                    <h3 style="color:aquamarine">WageBoost</h3>
+                    <h4 id="Popup_text">Remember To Change Password You have to send us a Message through Contact Us page(security policy) we will change your password in 1 day 
+
+                    </h4>
+                    
+
+                    <button class='ok' type="button" class="btn btn-success">OK</button>
+
+                </div>
+            </div>
+
+
+       <footer><h5>© copyright by WageBoost</h5></footer>
+       <script src="/static/js/sign_up.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      
+    </body>
+</html>

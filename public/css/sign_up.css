@@ -1,0 +1,244 @@
+@media screen and (max-width : 767px){
+    body{
+        background-image: url('../images/casey-horner-RmoWqDCqN2E-unsplash.jpg');
+    }
+    .heading h1 a{
+        font-family: 'Bruno Ace', cursive;
+        font-weight: bolder;
+        font-size: 38px;
+        text-decoration: none;
+    }
+    
+    .popup {
+      display: block;
+      position: fixed;
+      z-index: 10;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+     
+      background-color: rgba(0,0,0,0.6);
+    }
+    
+    /* Popup content */
+    .popup-content {
+      text-align: center;
+      color: rgb(20, 223, 81);
+      background-color: #1a1717;
+      margin: 15% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+    }
+    
+    
+    .popup-content img{
+    width: 65px;
+        height: 65px;
+    }
+    .popup-content button{
+    background-color: rgb(112, 230, 112);
+    font-weight: bolder;
+    
+    }
+   .heading h4{
+    font-size: 20px;
+    font-family: 'Poltawski Nowy', serif;
+    color: white;
+    margin-left: 28px;
+   }
+   .form{
+    margin-top: 60px;
+    padding: 10px;
+    font-family: 'Poltawski Nowy', serif;
+    color: aquamarine;
+    background: #060c21;
+    border: 2px solid white;    
+    box-shadow: 16px 14px 20px #0000008c;
+    border-radius: 10px;
+   }
+   
+}
+
+@media screen and (min-width:767px){
+    body{
+        margin: 0;
+        padding: 0;
+        /* min-height: 100vh; */
+        background-image: url('/static/images/sign_up.jpg');
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        /* z-index: 5; */
+    }
+    
+    .popup {
+      display: block;
+      position: fixed;
+      z-index: 10;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+     
+      background-color: rgba(0,0,0,0.6);
+    }
+    
+    /* Popup content */
+    .popup-content {
+      text-align: center;
+      color: rgb(20, 223, 81);
+      background-color: #1a1717;
+      margin: 15% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+    }
+    
+    
+    .popup-content img{
+    width: 65px;
+        height: 65px;
+    }
+    .popup-content button{
+    background-color: rgb(112, 230, 112);
+    font-weight: bolder;
+    
+    }
+    footer{
+        position:relative;top:130px;margin-left: 40vw;
+      }
+    .form{font-family: 'Poltawski Nowy', serif;
+       
+        padding: 15px;
+        margin: 7vh;
+        color: aquamarine;
+        width: 40vw;
+        /* background: #060c21; */
+        /* background-color: rgb(6, 17, 34, 0.1); */
+        border: 2px solid white;
+        box-shadow: 16px 14px 20px #0000008c;
+        border-radius: 10px;
+    }
+    
+    .container{
+        margin-top: 10vh;
+        display: flex;
+        
+    }
+    /* THIS IS POP UP FOR SIGN UP */
+    /* Popup container */
+    .registration_Form {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+      }
+      /* The actual popup (appears on top) */
+    .registration_Form form {
+        visibility: hidden;
+        width: 160px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 8px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -80px;
+      }
+      .heading h4{
+    
+        font-family: 'Poltawski Nowy', serif;
+        color: white;
+        margin-left: 28px;
+       }
+       .heading h1 a{
+        font-family: 'Bruno Ace', cursive;
+        font-weight: bolder;
+        font-size: 38px;
+        text-decoration: none;
+    }
+      /* Popup arrow */
+      .registration_Form form::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+      }
+      
+      /* Toggle this class when clicking on the popup container (hide and show the popup) */
+      .registration_Form .show {
+        visibility: visible;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s
+      }
+      
+      /* Add animation (fade in the popup) */
+      @-webkit-keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity: 1;}
+      }
+      
+      @keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity:1 ;}
+      }
+
+    /* body{
+  
+        background-image: url('/static/images/casey-horner-RmoWqDCqN2E-unsplash2.jpg');
+      
+       
+    }
+    .form{
+        margin-top: 60px;
+        padding: 10px;
+        width: 50vw;
+       
+        font-family: 'Poltawski Nowy', serif;
+        color: aquamarine;
+        background: #060c21;
+        border: 2px solid white;    
+        box-shadow: 16px 14px 20px #0000008c;
+        border-radius: 10px;
+       }
+    .heading h4{
+        font-size: 20px;
+        font-family: 'Poltawski Nowy', serif;
+        color: white;
+        margin-left: 28px;
+       }
+       .heading h1 a{
+        font-family: 'Bruno Ace', cursive;
+        font-weight: bolder;
+        font-size: 38px;
+        text-decoration: none;
+    }
+    footer{
+        margin-top: 10vh;
+        margin-bottom: 13vh;
+     text-align: center;
+     background-color: #17171F;
+     color: #E5E1E1;
+     width: 100vw;
+     height: 10vh;
+     padding: 10px;
+      } */
+    }
+
+
+
+
+    /* this is css of todo list */
+    
+
+
+
+
+

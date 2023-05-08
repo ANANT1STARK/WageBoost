@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign-up WageBoost</title>
+        <link rel="icon" type="image/ico" href="static\images\Capture.ico">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="/static/css/sign_up.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Poltawski+Nowy&family=Raleway:wght@600&family=Rubik+Pixels&family=Sigmar&display=swap" rel="stylesheet">
+
+
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="heading">
+                <h1><a href="#">WageBoost</a> </h1>
+                <h4>Conatct Us</h4>
+            </div>
+           
+            <div class="form">
+                <form method="post" action="/contact">
+                   <div class="form-group">
+                      <label for="exampleInputPassword1">Name</label>
+                      <input name="Name" type="text" class="form-control" id="exampleName1" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input name="Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">subject</label>
+                      <input name="subject" type="text" class="form-control" id="examplesubject" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Message</label>
+                      <input name="message" type="text" class="form-control" id="exampleMessage1" required>
+                    </div>
+                    
+                    
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </div>
+
+
+       <footer style="position:relative;top:90px;margin-left: 40vw;"><h5>© copyright by WageBoost</h5></footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      
+    </body>
+</html>
